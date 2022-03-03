@@ -1,0 +1,18 @@
+Módulo nativo de redes do node
+
+const dns = require('dns');
+
+Status code: 200 deu bom
+Status code: 400 erro do lado do usuáripo
+Status code: 500 servidor não respondeu sua requição
+
+Respostas de informação (100-199),
+Respostas de sucesso (200-299),
+Redirecionamentos (300-399)
+Erros do cliente (400-499)
+Erros do servidor (500-599).
+
+qndo  faz uma requisição ele envia headers
+ que são metadados
+
+https://nodejs.dev/learn/get-http-request-body-data-using-nodejs
